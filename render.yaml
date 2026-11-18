@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: evilginx2
+    env: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /status
+    plan: free
