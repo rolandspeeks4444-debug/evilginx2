@@ -3,5 +3,6 @@ services:
     name: evilginx2
     env: docker
     dockerfilePath: ./Dockerfile
-    healthCheckPath: /status
     plan: free
+    healthCheckPath: /status
+    autoDeploy: true
